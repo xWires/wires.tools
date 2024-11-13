@@ -1,0 +1,7 @@
+#header-container {
+    border-radius: 25px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
