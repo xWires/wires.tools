@@ -4,18 +4,20 @@ useSeoMeta({
   description: 'Helpful tools for developers',
   ogTitle: 'TangledWires Tools',
   ogDescription: 'Helpful tools for developers',
-  ogImage: 'https://tangledwires.xyz/images/xwires.png',
-  ogUrl: 'https://tools.tangledwires.xyz/',
+  ogImage: 'https://wires.tools/xwires.png',
+  ogUrl: 'https://wires.tools/',
   twitterTitle: 'TangledWires Tools',
   twitterDescription: 'Helpful tools for developers',
-  twitterImage: 'https://tangledwires.xyz/images/xwires.png',
+  twitterImage: 'https://wires.tools/xwires.png',
   twitterCard: 'summary',
 });
 </script>
 
 <template>
-    <div>
-        <AppHeader />
-        <AppFooter />
-    </div>
+  <div style="padding: 15px">
+    <AppHeader />
+    <slot />
+    <br>
+    <AppFooter />
+  </div>
 </template>

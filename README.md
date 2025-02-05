@@ -1,4 +1,4 @@
-# tools.tangledwires.xyz
+# wires.tools
 
 ## Setup
 
