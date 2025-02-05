@@ -35,6 +35,7 @@ onMounted(() => {
 
 <template>
   <div>
+    <p style="font-size: 30px">Base64 Encoder/Decoder</p>
     <div style="margin-top: 15px; margin-bottom: 15px;">
       <p style="font-size: 25px; margin-bottom: 15px">Input</p>
       <textarea ref="input" class="glowing-border" style="width: 100%; height: 150px"></textarea>
