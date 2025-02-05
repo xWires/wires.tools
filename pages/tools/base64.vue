@@ -41,8 +41,8 @@ onMounted(() => {
     </div>
     <div style="margin-top: 25px">
       <select ref="mode-dropdown" class="glowing-border">
-        <option>Decode</option>
         <option>Encode</option>
+        <option>Decode</option>
       </select>
       <input ref="live-update-checkbox" type="checkbox" width="10px" height="10px" style="margin-left: 15px" />
       <span style="margin-left: 5px">Live Updating</span>
