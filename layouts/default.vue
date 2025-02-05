@@ -15,7 +15,7 @@ useSeoMeta({
 
 <template>
   <div style="padding: 15px">
-    <AppHeader />
+    <AppHeader style="margin-bottom: 20px" />
     <slot />
     <br>
     <AppFooter />
