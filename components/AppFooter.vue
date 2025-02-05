@@ -3,7 +3,7 @@ import "~/assets/css/footer.css"
 </script>
 
 <template>
-  <div style="display: grid; background-color: #0b0b0b;">
-    <span id="copyright">&copy; Copyright TangledWires 2025</span>
+  <div class="copyright" style="display: grid; background-color: #0b0b0b;">
+    <span class="copyright-text">&copy; Copyright <a class="copyright-text" href="https://tangledwires.xyz/">TangledWires</a> 2025</span>
   </div>
 </template>
