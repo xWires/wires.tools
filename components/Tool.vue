@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="glowing-border transition duration-150 ease-in-out hover:scale-105" style="width: 100%; height: 100%; border-radius: 15px; padding: 10px">
+  <div class="glowing-border transition duration-150 ease-in-out hover:scale-105" style="width: 100%; height: 100%; border-radius: 15px; padding: 10px; background-color: black">
     <NuxtLink :to="url">
       <div>
         <p class="text-lg">{{ title }}</p>
