@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/image'],
+  modules: ['@nuxt/image', '@nuxtjs/plausible'],
   app: {
     head: {
       script: [
@@ -25,5 +25,8 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+  plausible: {
+    apiHost: "https://analytics.tangledwires.xyz",
   },
 })
