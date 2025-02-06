@@ -32,7 +32,7 @@ function validateYaml() {
     <div ref="error-container" class="glowing-border-red" style="margin-top: 50px; display: none">
       <p style="font-size: 25px;">Invalid YAML</p>
       <br>
-      <pre><code ref="error"></code></pre>
+      <pre style="white-space: pre-wrap"><code ref="error"></code></pre>
     </div>
     <div ref="success-container" class="glowing-border-green" style="margin-top: 50px; display: none">
       <p style="font-size: 25px;">Valid YAML!</p>
