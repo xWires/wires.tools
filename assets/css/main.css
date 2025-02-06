@@ -4,16 +4,23 @@
 
 :root {
     --primary: #00be0b;
-    --background: #1b1b1b
+    --background: #1b1b1b;
+    --red: #ff0000;
 }
 
 html {
     background-color: var(--background);
 }
 
-.glowing-border {
+.glowing-border-green {
     border: 2px solid var(--primary);
     box-shadow: 0 0 10px var(--primary);
+    padding: 5px;
+}
+
+.glowing-border-red {
+    border: 2px solid var(--red);
+    box-shadow: 0 0 10px var(--red);
     padding: 5px;
 }
 
@@ -21,7 +28,7 @@ html {
     text-decoration: none;
 }
 
-p, a, h1, h2, h3, h4, h5, h6, span {
+p, a, h1, h2, h3, h4, h5, h6, span, pre {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
