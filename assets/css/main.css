@@ -28,7 +28,7 @@ html {
     text-decoration: none;
 }
 
-p, a, h1, h2, h3, h4, h5, h6, span, pre {
+p, a, h1, h2, h3, h4, h5, h6, span, pre, li {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -50,4 +50,23 @@ input[type="checkbox"] {
 button {
     background-color: black;
     color: white;
+}
+
+thead, tfoot {
+    background-color: var(--background);
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid grey;
+    color: white;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px 10px;
+}
+
+td {
+    text-align: center;
 }
