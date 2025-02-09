@@ -30,7 +30,7 @@ function validateXml() {
       <p style="font-size: 25px; margin-bottom: 15px">Input</p>
       <textarea ref="input" class="glowing-border-green" style="width: 100%; height: 150px"></textarea>
     </div>
-    <button @click="validateXml" class="glowing-border-green">Validate</button>
+    <button @click="validateXml" class="glowing-border-green transition duration-150 ease-in-out hover:scale-105">Validate</button>
     <div ref="error-container" class="glowing-border-red" style="margin-top: 50px; display: none">
       <p style="font-size: 25px;">Invalid XML</p>
       <br>
