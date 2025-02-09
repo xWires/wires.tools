@@ -1,4 +1,6 @@
 <script setup>
+import BaseButton from "~/components/BaseButton.vue";
+
 import { useTemplateRef, onMounted } from "vue";
 import { Buffer } from "buffer";
 
@@ -22,9 +24,6 @@ function convert() {
 }
 
 onMounted(() => {
-  convertButton.value.addEventListener("click", (e) => {
-    convert();
-  });
   input.value.addEventListener("input", (e) => {
     if (liveUpdateCheckbox.value.checked) {
       convert();
@@ -48,7 +47,7 @@ onMounted(() => {
       <input ref="live-update-checkbox" type="checkbox" width="10px" height="10px" style="margin-left: 15px" />
       <span style="margin-left: 5px">Live Updating</span>
       <br>
-      <button ref="convert-button" class="glowing-border-green transition duration-150 ease-in-out hover:scale-105" style="margin-top: 20px">Convert</button>
+      <BaseButton @click="convert" style="margin-top: 20px">Convert</BaseButton>
     </div>
     <div style="margin-top: 15px; margin-bottom: 15px;">
       <p style="font-size: 25px; margin-bottom: 15px">Output</p>
