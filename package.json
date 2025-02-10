@@ -16,6 +16,7 @@
     "fast-xml-parser": "^4.5.1",
     "js-yaml": "^4.1.0",
     "jsonlint-mod": "^1.7.6",
+    "monaco-editor": "^0.52.2",
     "nuxt": "^3.15.4",
     "vue": "latest",
     "vue-router": "latest"
