@@ -2,9 +2,9 @@
 import BaseButton from "~/components/BaseButton.vue";
 
 import { ref, useTemplateRef } from "vue";
-import { Converter } from "showdown";
+import showdown from "showdown"
 
-const converter = new Converter();
+const converter = new showdown.Converter();
 
 const modeDropdown = useTemplateRef("mode-dropdown");
 const input = useTemplateRef("input");
