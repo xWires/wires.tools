@@ -53,5 +53,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: nuxt-build
+          name: nuxt-build-${{ github.sha }}
           path: ./dist

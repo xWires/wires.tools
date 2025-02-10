@@ -40,7 +40,7 @@ jobs:
       - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
-          name: nuxt-build
+          name: nuxt-build-${{ github.sha }}
           path: ./dist
       - name: Deploy to GitHub Pages
         id: deployment
