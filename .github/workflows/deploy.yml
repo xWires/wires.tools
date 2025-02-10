@@ -5,9 +5,12 @@
 name: Deploy Nuxt site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
+  workflow_run:
+    workflows: ["Build Site"]
+    types:
+      - completed
+    branches:
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
