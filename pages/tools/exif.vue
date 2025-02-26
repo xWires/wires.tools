@@ -30,7 +30,7 @@ async function fileSelected(event) {
 
 <template>
   <div>
-    <p style="font-size: 30px">EXIF Data Reader</p>
+    <p style="font-size: 30px">Exif Data Reader</p>
     <div style="margin-top: 15px; margin-bottom: 15px">
       <label class="glowing-border-green" for="select-image">Select Image</label>
       <input id="select-image" type="file" accept="image/*" style="display: none" @change="event => fileSelected(event)">
