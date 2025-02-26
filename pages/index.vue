@@ -5,5 +5,6 @@
     <Tool title="YAML Validator" description="Make sure your YAML is valid" url="/tools/yamlValidator" />
     <Tool title="XML Validator" description="Make sure your XML is valid" url="/tools/xmlValidator" />
     <Tool title="Markdown <--> HTML" description="Convert between Markdown and HTML" url="/tools/mdHtmlConverter" />
+    <Tool title="EXIF Data Reader" description="Extract EXIF data from images" url="/tools/exif" />
   </div>
 </template>
