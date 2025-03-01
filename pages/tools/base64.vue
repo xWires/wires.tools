@@ -44,7 +44,7 @@ onMounted(() => {
         <option>Encode</option>
         <option>Decode</option>
       </select>
-      <input ref="live-update-checkbox" type="checkbox" width="10px" height="10px" style="margin-left: 15px" />
+      <input ref="live-update-checkbox" type="checkbox" style="margin-left: 15px" />
       <span style="margin-left: 5px">Live Updating</span>
       <br>
       <BaseButton @click="convert" style="margin-top: 20px">Convert</BaseButton>
