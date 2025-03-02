@@ -1,4 +1,10 @@
 <script setup>
+useSeoMeta({
+  title: 'YAML Validator - TangledWires Tools',
+  ogTitle: 'YAML Validator - TangledWires Tools',
+  twitterTitle: 'YAML Validator - TangledWires Tools',
+});
+
 import BaseButton from "~/components/BaseButton.vue";
 
 import { useTemplateRef } from "vue";

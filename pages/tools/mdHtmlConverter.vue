@@ -1,4 +1,10 @@
 <script setup>
+useSeoMeta({
+  title: 'Markdown <--> HTML - TangledWires Tools',
+  ogTitle: 'Markdown <--> HTML - TangledWires Tools',
+  twitterTitle: 'Markdown <--> HTML - TangledWires Tools',
+});
+
 import BaseButton from "~/components/BaseButton.vue";
 
 import { ref, useTemplateRef } from "vue";

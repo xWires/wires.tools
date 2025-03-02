@@ -1,4 +1,10 @@
 <script setup>
+useSeoMeta({
+  title: 'JSON Validator - TangledWires Tools',
+  ogTitle: 'JSON Validator - TangledWires Tools',
+  twitterTitle: 'JSON Validator - TangledWires Tools',
+});
+
 import BaseButton from "~/components/BaseButton.vue";
 
 import { useTemplateRef } from "vue";

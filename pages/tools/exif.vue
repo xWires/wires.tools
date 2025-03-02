@@ -1,4 +1,10 @@
 <script setup>
+useSeoMeta({
+  title: 'Exif - TangledWires Tools',
+  ogTitle: 'Exif - TangledWires Tools',
+  twitterTitle: 'Exif - TangledWires Tools',
+});
+
 import { ref, useTemplateRef } from "vue";
 import ExifReader from "exifreader";
 

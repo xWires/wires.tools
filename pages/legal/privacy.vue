@@ -1,3 +1,11 @@
+<script setup>
+useSeoMeta({
+  title: 'Privacy - TangledWires Tools',
+  ogTitle: 'Privacy - TangledWires Tools',
+  twitterTitle: 'Privacy - TangledWires Tools',
+});
+</script>
+
 <template>
   <div>
     <p style="font-size: 35px">Privacy Policy</p>
