@@ -15,7 +15,7 @@
     "@tailwindcss/postcss": "^4.1.1",
     "buffer": "^6.0.3",
     "exifreader": "^4.27.0",
-    "fast-xml-parser": "^5.0.9",
+    "fast-xml-parser": "^5.1.0",
     "js-yaml": "^4.1.0",
     "jsonlint-mod": "^1.7.6",
     "nuxt": "^3.16.2",
