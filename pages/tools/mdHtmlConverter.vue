@@ -5,8 +5,6 @@ useSeoMeta({
   twitterTitle: 'Markdown <--> HTML - TangledWires Tools',
 });
 
-import BaseButton from "~/components/BaseButton.vue";
-
 import { ref, useTemplateRef } from "vue";
 import showdown from "showdown"
 

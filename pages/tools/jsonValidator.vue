@@ -5,8 +5,6 @@ useSeoMeta({
   twitterTitle: 'JSON Validator - TangledWires Tools',
 });
 
-import BaseButton from "~/components/BaseButton.vue";
-
 import { useTemplateRef } from "vue";
 import jsonlint from "jsonlint-mod";
 

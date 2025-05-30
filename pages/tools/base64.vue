@@ -5,8 +5,6 @@ useSeoMeta({
   twitterTitle: 'Base64 - TangledWires Tools',
 });
 
-import BaseButton from "~/components/BaseButton.vue";
-
 import { useTemplateRef, onMounted } from "vue";
 import { Buffer } from "buffer";
 

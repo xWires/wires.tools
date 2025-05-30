@@ -5,8 +5,6 @@ useSeoMeta({
   twitterTitle: 'YAML Validator - TangledWires Tools',
 });
 
-import BaseButton from "~/components/BaseButton.vue";
-
 import { useTemplateRef } from "vue";
 import yaml from "js-yaml";
 

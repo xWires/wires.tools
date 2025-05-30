@@ -5,8 +5,6 @@ useSeoMeta({
   twitterTitle: 'XML Validator - TangledWires Tools',
 });
 
-import BaseButton from "~/components/BaseButton.vue";
-
 import { useTemplateRef } from "vue";
 import { XMLParser } from "fast-xml-parser";
 
