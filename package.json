@@ -19,7 +19,7 @@
     "fast-xml-parser": "^5.2.3",
     "js-yaml": "^4.1.0",
     "jsonlint-mod": "^1.7.6",
-    "nuxt": "^3.17.6",
+    "nuxt": "^4.0.2",
     "showdown": "^2.1.0",
     "vue": "latest",
     "vue-router": "latest"
