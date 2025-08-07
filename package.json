@@ -16,7 +16,7 @@
     "@xwires/wireui": "^1.0.0",
     "buffer": "^6.0.3",
     "exifreader": "^4.31.1",
-    "fast-xml-parser": "^5.2.3",
+    "fast-xml-parser": "^5.2.5",
     "js-yaml": "^4.1.0",
     "jsonlint-mod": "^1.7.6",
     "nuxt": "^3.17.6",
