@@ -13,7 +13,6 @@
     "@nuxt/image": "^1.11.0",
     "@nuxtjs/plausible": "^1.2.0",
     "@nuxtjs/tailwindcss": "^7.0.0-beta.0",
->>>>>>> d356c2b (Revert "Remove plausible")
     "@xwires/wireui": "^1.0.0",
     "buffer": "^6.0.3",
     "exifreader": "^4.32.0",
