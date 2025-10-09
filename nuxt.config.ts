@@ -23,6 +23,6 @@ export default defineNuxtConfig({
     }
   },
   plausible: {
-    apiHost: "https://analytics.tangledwires.xyz",
+    apiHost: "https://analytics.tangledwires.co.uk",
   },
 })

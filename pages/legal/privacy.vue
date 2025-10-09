@@ -56,6 +56,6 @@ useSeoMeta({
       </tbody>
     </table>
     <br>
-    <p>All data collected is publicly available at <a href="http://analytics.tangledwires.xyz/wires.tools">http://analytics.tangledwires.xyz/wires.tools</a></p>
+    <p>All data collected is publicly available at <a href="http://analytics.tangledwires.co.uk/wires.tools">http://analytics.tangledwires.co.uk/wires.tools</a></p>
   </div>
 </template>
