@@ -20,6 +20,7 @@
     "js-yaml": "^4.1.0",
     "jsonlint-mod": "^1.7.6",
     "nuxt": "^4.1.2",
+    "papaparse": "^5.5.3",
     "showdown": "^2.1.0",
     "vue": "latest",
     "vue-router": "latest"

@@ -6,5 +6,6 @@
     <Tool title="XML Validator" description="Make sure your XML is valid" url="/tools/xmlValidator" />
     <Tool title="Markdown <--> HTML" description="Convert between Markdown and HTML" url="/tools/mdHtmlConverter" />
     <Tool title="Exif Data Reader" description="Extract Exif data from images" url="/tools/exif" />
+    <Tool title="CSV to HTML Table" description="Convert a CSV file into a HTML table" url="/tools/csvHtmlTable" />
   </div>
 </template>
