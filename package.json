@@ -17,7 +17,7 @@
     "buffer": "^6.0.3",
     "exifreader": "^4.32.0",
     "fast-xml-parser": "^5.3.1",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.1.1",
     "jsonlint-mod": "^1.7.6",
     "nuxt": "^4.1.2",
     "papaparse": "^5.5.3",
